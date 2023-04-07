@@ -34,7 +34,6 @@ public class Main {
 
         db_example.closeConnection();
 
-        FileRepository fileRepository = new FileRepository()
     }
     public static void addInitialValues(Service service) {
         Appointment a5 = new Appointment(5,"Matei", new Date(122, Calendar.MAY, 2, 16, 10), 10);
